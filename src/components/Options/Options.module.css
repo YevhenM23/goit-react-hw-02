@@ -1,0 +1,22 @@
+.optionsWrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btnGood {
+  background-color: green;
+}
+
+.btnNeutral {
+  background-color: yellow;
+}
+
+.btnBad {
+  background-color: red;
+}
+
+.btnReset {
+  background-color: gray;
+}

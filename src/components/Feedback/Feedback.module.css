@@ -1,0 +1,45 @@
+.feedbackWrapper {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedbackList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feedbackList li {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-family: "Arial", sans-serif;
+}
+
+.itemGood {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.itemNeutral {
+  color: #ffc107;
+}
+
+.itemBad {
+  color: red;
+}
+
+.itemTotal {
+  color: #343a40;
+  font-style: italic;
+}
+
+.itemPositive {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: underline;
+}
